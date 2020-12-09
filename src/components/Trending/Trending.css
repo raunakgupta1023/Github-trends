@@ -1,0 +1,84 @@
+.filter {
+  display: inline-block;
+  margin-right: 25px !important;
+}
+.filters {
+  margin: 20px;
+}
+.container {
+  float: right;
+}
+@media only screen and (min-width: 1081px) {
+  .cell {
+    max-width: 216px !important;
+    min-width: 216px !important;
+  }
+  .MuiDataGrid-colCell {
+    max-width: 216px !important;
+    min-width: 216px !important;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .grid {
+    width: 1080px;
+  }
+  .filters {
+    width: 1080px;
+  }
+  .cell {
+    max-width: 216px !important;
+    min-width: 216px !important;
+  }
+  .MuiDataGrid-colCell {
+    max-width: 216px !important;
+    min-width: 216px !important;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .grid {
+    width: 720px;
+  }
+  .filters {
+    margin: 20px;
+    display: inline-block;
+    width: 720px;
+  }
+  .container {
+    float: none;
+    margin-top: 20px;
+  }
+  .cell {
+    max-width: 144px !important;
+    min-width: 144px !important;
+  }
+  .MuiDataGrid-colCell {
+    max-width: 144px !important;
+    min-width: 144px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .filters {
+    margin: 20px;
+    display: inline-block;
+    width: 360px;
+  }
+  .container {
+    float: none;
+    margin-top: 20px;
+  }
+  .grid {
+    width: 360px;
+  }
+  .data-container {
+    min-width: 360px !important;
+  }
+  .cell {
+    max-width: 75px !important;
+    min-width: 75px !important;
+  }
+  .MuiDataGrid-colCell {
+    max-width: 75px !important;
+    min-width: 75px !important;
+  }
+}
